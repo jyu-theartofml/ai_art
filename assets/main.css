@@ -15,6 +15,32 @@ html {
     padding: 75px 0 20px;
     border-bottom: 1px solid #ebeaea; }
 
+.header-logo {
+      display: inline-block;
+      font-family: "Cormorant Garamond", Courier, serif;
+      font-size: 36px;
+      font-weight: 700;
+      color: #000;
+    text-decoration: none; }
+
+.header-links {
+      float: right;
+      padding: 0;
+      margin: 15px 0 0;
+      list-style: none; }
+      .header-links li {
+        display: inline-block;
+        margin-left: 20px;
+        vertical-align: middle; }
+        .header-links li:first-child {
+          margin-left: 0; }
+        .header-links li a {
+          font-size: 17px;
+          color: #393636; }
+          .header-links li a:hover {
+    color: #121111; }
+
+
   @media all and (max-width: 815px) {
     .header-nav {
       text-align: center; }
@@ -94,3 +120,62 @@ vertical-align: bottom; }
   max-width: 1050px;
   margin-right: auto;
 margin-left: auto; }
+
+@font-face {
+  font-family: ionicons;
+  src: url("https://github.com/yinniyu/yinniyu.github.io/blob/master/assets/ionicons/ionicons.eot?#iefix") format("embedded-opentype"), url("https://github.com/yinniyu/yinniyu.github.io/blob/master/assets/ionicons/ionicons.woff") format("woff"), url("https://github.com/yinniyu/yinniyu.github.io/blob/master/assets/ionicons/ionicons.ttf") format("truetype"); }
+.icon {
+  display: inline-block;
+  width: 1.1em;
+  font-family: ionicons;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center; }
+
+.icon-flickr:before {
+  content: ""; }
+
+.icon-about:before {
+  content: ""; }
+
+.icon-email:before {
+  content: ""; }
+
+.icon-arrow-left:before {
+  content: ""; }
+
+.icon-arrow-right:before {
+  content: ""; }
+
+.icon-bitcoin:before {
+  content: ""; }
+
+.icon-dribbble:before {
+  content: ""; }
+
+.icon-facebook:before {
+  content: ""; }
+
+.icon-github:before {
+  content: ""; }
+
+.icon-linkedin:before {
+  content: ""; }
+
+.icon-rss:before {
+  content: ""; }
+
+.icon-twitter:before {
+  content: ""; }
+
+.appear {
+  visibility: hidden;
+  opacity: 0; }
+
+.appeared {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease-in-out;
+transition: opacity 0.5s ease-in-out; }
