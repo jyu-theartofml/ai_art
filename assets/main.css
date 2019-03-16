@@ -15,7 +15,7 @@ html {
     padding: 75px 0 20px;
     border-bottom: 1px solid #ebeaea; }
 
-  @media all and (max-width: 415px) {
+  @media all and (max-width: 815px) {
     .header-nav {
       text-align: center; }
 
@@ -91,6 +91,6 @@ html {
   .grid-cell.is-bottom {
 vertical-align: bottom; }
 .grid-centered {
-  max-width: 650px;
+  max-width: 1050px;
   margin-right: auto;
 margin-left: auto; }
