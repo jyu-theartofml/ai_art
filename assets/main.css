@@ -35,7 +35,7 @@ body {
 .header-links {
       float: right;
       padding: 0;
-      margin: 15px 0 0;
+      margin: 50px 0 0;
       list-style: none; }
       .header-links li {
         display: inline-block;
@@ -44,7 +44,7 @@ body {
         .header-links li:first-child {
           margin-left: 0; }
         .header-links li a {
-          font-size: 17px;
+          font-size: 12px;
           color: #393636; }
           .header-links li a:hover {
     color: #121111; }
@@ -160,7 +160,7 @@ font-size: 16px; }
   .grid-cell.is-bottom {
 vertical-align: bottom; }
 .grid-centered {
-  max-width: 1050px;
+  max-width: 950px;
   margin-right: auto;
 margin-left: auto; }
 
